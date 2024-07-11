@@ -11099,6 +11099,7 @@ p {
 }
 
 .widget {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -11700,4 +11701,13 @@ pre .code {
 .section.bg-overlay {
   background: #2C3E50;
   color: #fff;
+}
+.hobbyContainer{
+  display: flex;
+  flex-direction: column;
+}
+.hobbyTopContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
